@@ -1,0 +1,556 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* All button styles */
+.btn {
+  font-weight: 700;
+  font-size: 20px;  
+  border: none;
+}
+
+/* Header section styles */
+.header {
+  display: flex;
+}
+
+.banner-title {
+  font-weight: 800;
+  font-size: 80px;
+  color: #1C1C1C;
+}
+
+.description {
+  font-weight: 500;
+  color: #777777;
+}
+
+.banner-description {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.explore-more {
+  background-image: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
+  height: 64px;
+  border-radius: 10px;
+  padding: 18px 20px;
+  color: #FFFFFF; 
+}
+
+.rating-btn {
+  display: flex;
+  gap: 13px;
+  position: relative;
+}
+
+.rating-btn {
+  background-color: #FFFFFF;
+  padding: 19px 26px;
+  box-shadow: 0px 7px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  position: absolute;
+  top: 400px;
+  left: 650px;
+}
+
+.fa-star {
+  font-size: 50px;
+  color: #FFC850;
+}
+
+.rating-title {
+  font-weight: 800;
+  font-size: 30px;
+  color: #1C1C1C;
+}
+
+.rating-info {
+  font-weight: 600;
+  font-size: 16px;
+  color: #777777;
+}
+
+/* Main section styles */
+.featured,
+.great-tea,
+.supper-clients,
+.news-events,
+.footer {
+  margin-top: 130px;
+}
+
+/* Our featured products styles */
+.section-title {
+  font-weight: 800;
+  font-size: 45px;
+  text-align: center;
+  color: #1C1C1C;
+}
+
+.section-description {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 28px; 
+  text-align: center;
+}
+
+.card-container {
+  margin-top: 50px;
+  text-align: center;
+  gap: 24px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.tea-card {
+  background-image: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0) 100%);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.tea-title {
+  margin-top: 30px;
+  font-weight: 800;
+  font-size: 25px;
+  color: #1C1C1C;
+}
+
+.tea-info {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #777777;
+}
+
+/* Great tea section styles */
+.great-tea {
+  display: flex;
+  gap: 52px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 238px);
+  grid-template-rows: repeat(3, 138px);
+  grid-gap: 30px;
+}
+
+.item1 {
+  background-image: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
+  opacity: 0.1;
+  border-radius: 10px;
+  transform: rotate(-180deg); 
+}
+
+.item2 {
+  grid-column: 2 / 3;
+  grid-row: 1 / span 2;
+  background-color: rgba(230, 166, 35, 0.1);
+  border-radius: 10px;
+}
+
+.item2 img,
+.item3 img {
+  padding: 20px 30px;
+}
+
+.item3 {
+  grid-column: 1 / 2;
+  grid-row: 2 / span 2;
+  background-color: rgba(87, 118, 57, 0.1);
+  border-radius: 10px;  
+}
+
+.item4 {
+  background-image: linear-gradient(90deg, #D9D9D9 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 10px;  
+}
+
+.great-tea-title {
+  font-weight: 800;
+  font-size: 45px;
+  color: #1C1C1C;
+}
+
+.tea-description {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 28px; 
+}
+
+.tast {
+  font-weight: 800;
+  font-size: 20px;
+  color: #1C1C1C;
+}
+
+.unique {
+  margin-top: 30px;
+}
+
+.premium {
+  margin-top: 20px;
+}
+
+.tast-info {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;  
+  color: #777777;
+}
+
+/* Meet our super clients styles */
+.supper-clients {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
+  border-radius: 10px;  
+  padding: 85px 70px;
+}
+
+.clients-title {
+  font-weight: 800;
+  font-size: 45px;
+  color: #F4F4F4;
+}
+
+.clients-description {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 28px; 
+  color: #F4F4F4; 
+  margin-bottom: 30px;
+}
+
+.show-all {
+  height: 56px;
+  padding: 14px 28px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  color: #FF0000;
+}
+
+.box {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding: 40px 42px 32px 50px;
+  position: relative;
+}
+
+.circle-pic img {
+  position: absolute;
+  top: -30px;
+  left: -10px;
+}
+
+.box-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #777777;
+}
+
+.name {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 16px; 
+  color: #1C1C1C;
+}
+
+.pro {
+  font-weight: 500;
+  font-size: 16px;
+  color: #5D5A6F;
+}
+
+.clients-box-container {
+  position: relative;
+}
+
+.opacity {
+  margin-top: 60px;
+  opacity:  0.3;
+}
+
+.position-box {
+  position: absolute;
+  top: 200px;
+  left: -100px;
+}
+
+/* News & events section styles */
+.news-title {
+  font-weight: 800;
+  font-size: 45px;
+  text-align: center;
+  color: #1C1C1C;
+}
+
+.news-description {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #777777;
+}
+
+.card-tea-container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.card {
+  border: 1px solid #D2D2D2;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.date {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #777777;
+}
+
+.discount {
+  margin-top: 10px;
+  font-weight: 800;
+  font-size: 20px; 
+  color: #1C1C1C;
+}
+
+.card-info {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px; 
+  color: #777777;
+}
+
+.more {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 16px;  
+  color: #1C1C1C;
+}
+
+/* Footer section styles */
+.footer {
+  padding: 100px 80px;
+  background-image: linear-gradient(270deg, rgba(255, 0, 0, 0.1) 0%, rgba(255, 137, 56, 0.1) 100%);
+}
+
+.footer-part-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-start {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.para {
+  font-weight: 500;
+  font-size: 20px; 
+  color: #494949; 
+}
+
+.get-started { 
+  color: #FFFFFF;
+  padding: 15px 25px;
+  height: 56px;
+  background-image: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
+  border-radius: 8px;  
+}
+
+.footer-container {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.tilte {
+  font-weight: 600;
+  font-size: 20px;
+  color: #1C1C1C;
+  margin-bottom: 22px;
+}
+
+.footer-info {
+  font-weight: 400;
+  font-size: 16px;  
+  color: #494949;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-arrow {
+  font-size: 32px;
+  border-radius: 100%;
+  background-image: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
+  color: #FFFFFF;
+}
+
+.footer-line {
+  margin-top: 16px;
+  border-bottom: 1px solid #494949;
+}
+
+.social-icons {
+  margin-top: 48px;
+  display: flex;
+  gap: 24px;
+}
+
+.icon {
+  color:  #494949;
+}
+
+.third-part {
+  margin-top: 60px;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #494949;
+}
+
+/* Responsive devices */
+
+/* Tablet and Medium devices */
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 0 70px;
+  }
+
+  .header,
+  .rating-btn,
+  .great-tea,
+  .supper-clients,
+  .footer-part-one,
+  .footer-start {
+    flex-direction: column;
+  }
+
+  .banner-title {
+    font-size: 60px;
+  }
+
+  .banner-pic img {
+    width: 100%;
+  }
+
+  .rating-btn {
+    position: sticky;
+  }
+
+  .card-container,
+  .card-tea-container,
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-container {
+    display: block;
+  }
+
+  .opacity {
+    margin: 40px 0;
+    opacity: 1;
+  }
+  
+  .position-box {
+    position: sticky;
+  }
+
+  .footer {
+    padding: 120px;
+  }
+
+  .tilte {
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+}
+
+/* Mobile phone */
+@media only screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+    padding: 0 40px;
+  }
+
+  .header,
+  .rating-btn,
+  .great-tea,
+  .supper-clients,
+  .footer-part-one,
+  .footer-start {
+    flex-direction: column;
+  }
+
+  .banner-title {
+    font-size: 50px;
+  }
+
+  .banner-pic img {
+    width: 100%;
+  }
+
+  .rating-btn {
+    position: sticky;
+  }
+
+  .card-container,
+  .card-tea-container,
+  .footer-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grid-container {
+    display: block;
+  }
+  
+  .position-box {
+    position: sticky;
+  }
+
+  .footer {
+    padding: 100px;
+  }
+
+  .tilte {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+}
+
